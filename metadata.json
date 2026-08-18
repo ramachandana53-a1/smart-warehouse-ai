@@ -1,0 +1,6 @@
+{
+  "name": "Smart Warehouse & Autonomous Order Fulfillment Platform",
+  "description": "Smart Warehouse & Autonomous Order Fulfillment Platform with plain-English UI, real-time priority scoring, conflict resolution engine, demo simulations, and AI operations copilot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

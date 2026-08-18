@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Warehouse & Autonomous Order Fulfillment Platform</title>
+    <meta name="description" content="Autonomous Smart Warehouse Control Tower for real-time inventory allocation, automated route optimization, and operational exception management." />
+    <meta property="og:title" content="Smart Warehouse & Autonomous Order Fulfillment Platform" />
+    <meta property="og:description" content="Autonomous Smart Warehouse Control Tower for real-time inventory allocation, automated route optimization, and operational exception management." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <script>
+      // Silence benign Vite HMR websocket reconnection noise in sandbox preview
+      const _origError = console.error;
+      console.error = function (...args) {
+        if (args.some(arg => typeof arg === 'string' && (arg.includes('[vite]') || arg.includes('websocket') || arg.includes('WebSocket')))) {
+          return;
+        }
+        _origError.apply(console, args);
+      };
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
