@@ -41,4 +41,5 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/ramachandana53-a1/smart-warehouse-ai.git](https://github.com/ramachandana53-a1/smart-warehouse-ai.git)
+   
    cd smart-warehouse-ai
