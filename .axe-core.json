@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "color-contrast": { "enabled": true },
+    "document-title": { "enabled": true },
+    "html-has-lang": { "enabled": true },
+    "aria-roles": { "enabled": true },
+    "button-name": { "enabled": true }
+  },
+  "standard": "WCAG2AA"
+}
